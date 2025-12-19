@@ -18,3 +18,9 @@ View your app in AI Studio: https://ai.studio/apps/drive/1ADruvH0IJV98C_F2i6grD9
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+
+## Deploy on GitHub Pages
+
+1. Push to `main` (the GitHub Action will build automatically).
+2. After the first successful run, open **Settings → Pages** and set **Source** to **GitHub Actions**. If prompted for a branch, pick `gh-pages`.
+3. Wait for the deploy workflow to finish; the live URL appears in the Pages settings once green.
